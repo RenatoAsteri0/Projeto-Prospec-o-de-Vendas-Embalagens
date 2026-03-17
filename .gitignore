@@ -1,0 +1,32 @@
+# Ignore temporary and log files
+*.log
+*.tmp
+temp/
+
+# Ignore build artifacts and directories
+/build
+/dist
+target/
+*.class # Java class files
+
+# Ignore dependency directories
+node_modules/
+vendor/
+.venv/ # Python virtual environment
+
+# Ignore sensitive information/environment variables
+.env
+*.json
+logs/
+__pycache__/
+.venv/
+
+# Ignore OS and editor-specific files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+.vscode/ # VS Code configuration
+.idea/ # IntelliJ/JetBrains IDE configuration
+
+# Ignore logs Airflow
+logs/
+airflow/logs/
